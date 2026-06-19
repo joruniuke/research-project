@@ -1,0 +1,85 @@
+
+=== Video 130639 ===
+  Detected:  104/104 frames  (100%)
+  D_end:     mean=19.1 px   median=17.8 px
+  Y_norm:    mean=0.0073   median=0.0056  (fraction of barrel height)
+
+=== Video 130739 ===
+  Detected:  222/230 frames  (97%)
+  D_end:     mean=17.4 px   median=12.7 px
+  Y_norm:    mean=0.0296   median=0.0015  (fraction of barrel height)
+
+=== Video 130759 ===
+  Detected:  99/99 frames  (100%)
+  D_end:     mean=104.6 px   median=102.6 px
+  Y_norm:    mean=0.1016   median=0.0826  (fraction of barrel height)
+
+=== Video 131509 ===
+  Detected:  68/68 frames  (100%)
+  D_end:     mean=13.3 px   median=13.3 px
+  Y_norm:    mean=0.0030   median=0.0031  (fraction of barrel height)
+
+=== Video 131704 ===
+  Detected:  120/120 frames  (100%)
+  D_end:     mean=10.9 px   median=11.3 px
+  Y_norm:    mean=0.0012   median=0.0010  (fraction of barrel height)
+
+=== Video 131721 ===
+  Detected:  141/141 frames  (100%)
+  D_end:     mean=14.7 px   median=14.8 px
+  Y_norm:    mean=0.0039   median=0.0033  (fraction of barrel height)
+
+=== Video 131732 ===
+  Detected:  91/91 frames  (100%)
+  D_end:     mean=14.4 px   median=13.4 px
+  Y_norm:    mean=0.0036   median=0.0035  (fraction of barrel height)
+
+=== Video 131742 ===
+  Detected:  104/104 frames  (100%)
+  D_end:     mean=17.5 px   median=17.1 px
+  Y_norm:    mean=0.0040   median=0.0034  (fraction of barrel height)
+
+=== Video 131805 ===
+  Detected:  69/69 frames  (100%)
+  D_end:     mean=11.9 px   median=11.2 px
+  Y_norm:    mean=0.0045   median=0.0050  (fraction of barrel height)
+
+=== Video 131814 ===
+  Detected:  98/98 frames  (100%)
+  D_end:     mean=23.8 px   median=21.6 px
+  Y_norm:    mean=0.0042   median=0.0014  (fraction of barrel height)
+
+=== Video 131846 ===
+  Detected:  112/112 frames  (100%)
+  D_end:     mean=27.1 px   median=20.4 px
+  Y_norm:    mean=0.0165   median=0.0100  (fraction of barrel height)
+
+=== Video 132718 ===
+  Detected:  106/106 frames  (100%)
+  D_end:     mean=8.1 px   median=7.3 px
+  Y_norm:    mean=0.0037   median=0.0021  (fraction of barrel height)
+
+=== Video 132742 ===
+  Detected:  155/155 frames  (100%)
+  D_end:     mean=10.5 px   median=7.2 px
+  Y_norm:    mean=0.0049   median=0.0031  (fraction of barrel height)
+
+=== Video 132807 ===
+  Detected:  146/146 frames  (100%)
+  D_end:     mean=6.7 px   median=6.1 px
+  Y_norm:    mean=0.0049   median=0.0043  (fraction of barrel height)
+
+=== Video 133446 ===
+  Detected:  112/112 frames  (100%)
+  D_end:     mean=6.9 px   median=6.4 px
+  Y_norm:    mean=0.0036   median=0.0032  (fraction of barrel height)
+
+=== Video 133457 ===
+  Detected:  139/139 frames  (100%)
+  D_end:     mean=14.6 px   median=14.8 px
+  Y_norm:    mean=0.0061   median=0.0055  (fraction of barrel height)
+
+=== Overall (16 videos) ===
+  Detected:  1886/1894 frames  (100%)
+  D_end:     mean=19.1 px   median=13.2 px
+  Y_norm:    mean=0.0131   median=0.0033  (fraction of barrel height)

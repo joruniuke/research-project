@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <name>sample_video</name>
+    </task>
+  </meta>
+
+  <!--
+    Syringe track: 4-point polygon (OBB) annotated per frame.
+    Points are ordered as the four corners of the oriented bounding box.
+    Frame IDs correspond to 0-indexed video frames.
+  -->
+  <track id="0" label="Syringe" source="manual">
+    <polygon frame="0" points="850.00,200.00;950.00,205.00;945.00,800.00;845.00,795.00"
+             outside="0" occluded="0" keyframe="1">
+    </polygon>
+    <polygon frame="1" points="852.00,201.00;952.00,206.00;947.00,801.00;847.00,796.00"
+             outside="0" occluded="0" keyframe="1">
+    </polygon>
+    <polygon frame="2" points="851.00,200.00;951.00,205.00;946.00,800.00;846.00,795.00"
+             outside="0" occluded="0" keyframe="1">
+    </polygon>
+  </track>
+
+  <!--
+    Liquid Line track: 2-point polyline marking the rubber stopper bottom edge.
+    Points span the full width of the barrel at the liquid interface.
+    Label may appear as "Liquid Level", "Liquid Line", or "Liquid line" across videos.
+  -->
+  <track id="1" label="Liquid Line" source="manual">
+    <polyline frame="0" points="847.00,520.00;945.00,522.00"
+              outside="0" occluded="0" keyframe="1">
+    </polyline>
+    <polyline frame="1" points="849.00,518.00;947.00,520.00"
+              outside="0" occluded="0" keyframe="1">
+    </polyline>
+    <polyline frame="2" points="848.00,519.00;946.00,521.00"
+              outside="0" occluded="0" keyframe="1">
+    </polyline>
+  </track>
+
+</annotations>

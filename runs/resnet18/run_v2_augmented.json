@@ -1,0 +1,30 @@
+{
+  "name": "v2_augmented",
+  "description": "ResNet18 regression, dropout=0.3, WITH data augmentation",
+  "config": {
+    "epochs": 100,
+    "lr": 1e-4,
+    "batch": 32,
+    "dropout": 0.3,
+    "augmentation": true,
+    "augmentation_ops": ["RandomHorizontalFlip", "RandomRotation(5)", "ColorJitter(0.4,0.4,0.3,0.05)", "GaussianBlur(3)"],
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "loss": "L1Loss"
+  },
+  "best_val_l1": 0.0375,
+  "final_train_l1": 0.0496,
+  "epochs_log": [
+    {"epoch": 1,   "train": 0.4258, "val": 0.3929},
+    {"epoch": 10,  "train": 0.1297, "val": 0.0860},
+    {"epoch": 20,  "train": 0.0936, "val": 0.0748},
+    {"epoch": 30,  "train": 0.0737, "val": 0.0680},
+    {"epoch": 40,  "train": 0.0677, "val": 0.0637},
+    {"epoch": 50,  "train": 0.0565, "val": 0.0529},
+    {"epoch": 60,  "train": 0.0545, "val": 0.0509},
+    {"epoch": 70,  "train": 0.0504, "val": 0.0448},
+    {"epoch": 80,  "train": 0.0502, "val": 0.0375},
+    {"epoch": 90,  "train": 0.0475, "val": 0.0375},
+    {"epoch": 100, "train": 0.0496, "val": 0.0390}
+  ]
+}

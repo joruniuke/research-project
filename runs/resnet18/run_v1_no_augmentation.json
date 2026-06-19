@@ -1,0 +1,20 @@
+{
+  "name": "v1_no_augmentation",
+  "description": "ResNet18 regression, dropout=0.3, NO data augmentation",
+  "config": {
+    "epochs": 100,
+    "lr": 1e-4,
+    "batch": 32,
+    "dropout": 0.3,
+    "augmentation": false,
+    "optimizer": "AdamW",
+    "scheduler": "CosineAnnealingLR",
+    "loss": "L1Loss"
+  },
+  "best_val_l1": 0.0653,
+  "final_train_l1": 0.0018,
+  "note": "Severe overfitting — train/val gap of 0.0635. Only epoch-1 and final values recorded (full log not captured).",
+  "epochs_log": [
+    {"epoch": 100, "train": 0.0018, "val": 0.0653}
+  ]
+}

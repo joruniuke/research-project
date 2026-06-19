@@ -1,0 +1,24 @@
+# Private video data — not redistributable
+train-videos/
+test-videos/
+
+# Private annotation labels — not redistributable
+train-labels/
+test-labels/
+
+# Derived image datasets (generated from private videos)
+stopper_dataset/
+stopper_dataset_crop/
+yolo_dataset/
+yolo_dataset_v2/
+
+# Generated figure outputs
+figures/output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
