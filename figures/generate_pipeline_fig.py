@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 from data.dataset import SyringeDataset
-from methods.obb_edge_scan import OBBEdgeScanDetector
+from methods.edge_scan import OBBEdgeScanDetector
 from utils.obb import obb_crop
 
 # Video 132807, frame 73 was chosen because the stopper is clearly visible,
